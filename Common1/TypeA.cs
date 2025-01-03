@@ -85,4 +85,9 @@ namespace Common1
 
 
     }
+
+    public enum Gender : byte
+    {
+        Male = 100,Female= 200
+    }
 }
