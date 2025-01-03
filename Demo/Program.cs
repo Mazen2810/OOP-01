@@ -1,4 +1,5 @@
-﻿namespace Demo
+﻿
+namespace Demo
 {
     internal class Program
     {

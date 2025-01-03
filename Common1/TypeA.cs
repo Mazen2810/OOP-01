@@ -6,6 +6,14 @@ using System.Threading.Tasks;
 
 namespace Common1
 {
+    namespace Models
+    {
+        class Employee
+        {
+
+        }
+    }
+
     //// What can you write inside the Namespace?
     //// 1. Class
     //// 2. Struct [Stands for Struture]
