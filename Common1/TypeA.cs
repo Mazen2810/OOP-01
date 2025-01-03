@@ -90,4 +90,6 @@ namespace Common1
     {
         Male = 100,Female= 200
     }
+
+    public delegate string Func(int Number);
 }
