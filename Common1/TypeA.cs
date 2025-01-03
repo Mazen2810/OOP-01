@@ -92,4 +92,6 @@ namespace Common1
     }
 
     public delegate string Func(int Number);
+
+    public record Person (int id, string name);
 }
