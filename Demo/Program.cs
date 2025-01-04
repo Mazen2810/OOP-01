@@ -38,7 +38,7 @@ namespace Demo
             /// Console.WriteLine(mygender);
 
 
-            Grade myGrade = Grade.A; // 4 Bytes
+            /* Grade myGrade = Grade.A;*/ // 4 Bytes
             /// if(myGrade == Grade.A)
             ///     Console.WriteLine(":)");
             /// else
@@ -50,7 +50,20 @@ namespace Demo
             ///  Console.WriteLine(myGrade);
             #endregion
 
-          
+            #region Ex 02
+
+            //Gender myGender;
+            //myGender = /*UnBoxing*/ (Gender)Enum.Parse(typeof(Gender), "male", true);
+            //myGender = Enum.Parse<Gender>("male",true);
+
+
+            //Enum.TryParse(typeof(Gender), "Male", out object? result);
+            //myGender =(Gender) (result ?? Gender.Male);
+
+            //Enum.TryParse<Gender>("Male", true, out myGender);
+            //Console.WriteLine(myGender);
+            #endregion
+
             #endregion
 
         }
