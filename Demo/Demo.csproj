@@ -11,4 +11,8 @@
     <ProjectReference Include="..\Common1\Common1.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Using Include="Common1" />
+  </ItemGroup>
+
 </Project>
