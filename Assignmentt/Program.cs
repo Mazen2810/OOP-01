@@ -15,6 +15,10 @@
     {
         Read = 1, Write = 2 , Delete = 4 , Execute = 8
     }
+    enum Colors :byte 
+    {
+        Red =1 , Green , Blue
+    }
     internal class Program
     {
         static void Main(string[] args)
@@ -61,6 +65,18 @@
 
             //bool IsExist = (Permission & Permissions.Read) == Permissions.Read;  // Checking if "Read" exist
             //Console.WriteLine(IsExist);
+
+            #endregion
+
+            #region Q4: Create an enum called "Colors" with the basic colors (Red, Green, Blue) as its members. Write a C# program that takes a color name as input from the user and displays a message indicating whether the input color is a primary color or not.
+
+            //Console.Write("Enter the Color: ");
+            //string inputColor = Console.ReadLine();
+            //Enum.TryParse<Colors>(inputColor, true, out Colors result);
+            //if(result == 0)
+            //    Console.WriteLine($"{inputColor} is not a Primary Color");
+            //else
+            //    Console.WriteLine($"{inputColor} is a Primary Color");
 
             #endregion
         }
